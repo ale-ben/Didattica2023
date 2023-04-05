@@ -4,9 +4,31 @@ author: Alessandro Benetton
 date: 05/04/2023
 ---
 
-Esame di Didattica dell'Informatica, A.A. 2022/2023
+# Esame di Didattica dell'Informatica, A.A. 2022/2023
 
-# Changelog (se necessario)
+- [Esame di Didattica dell'Informatica, A.A. 2022/2023](#esame-di-didattica-dellinformatica-aa-20222023)
+- [Changelog (se necessario)](#changelog-se-necessario)
+- [Inquadramento del lavoro](#inquadramento-del-lavoro)
+	- [Livello di scuola, classe/i, indirizzo](#livello-di-scuola-classei-indirizzo)
+		- [Target principale](#target-principale)
+		- [Target secondario](#target-secondario)
+	- [Motivazione e Finalità](#motivazione-e-finalità)
+	- [Innovatività](#innovatività)
+	- [Prerequisiti](#prerequisiti)
+	- [Contenuti](#contenuti)
+	- [Traguardi e Obiettivi](#traguardi-e-obiettivi)
+		- [Collegamento con i documenti ministeriali/proposte](#collegamento-con-i-documenti-ministerialiproposte)
+		- [Obiettivi di apprendimento](#obiettivi-di-apprendimento)
+	- [Metodologie didattiche](#metodologie-didattiche)
+	- [Tempi](#tempi)
+	- [Spazi](#spazi)
+	- [Materiali e Strumenti](#materiali-e-strumenti)
+- [Sviluppo dei contenuti](#sviluppo-dei-contenuti)
+- [Bibliografia](#bibliografia)
+- [Licenza del documento](#licenza-del-documento)
+- [Meta-sezione (da rimuovere): consigli](#meta-sezione-da-rimuovere-consigli)
+
+# Changelog (se necessario)	
 
 # Inquadramento del lavoro
 
@@ -17,11 +39,11 @@ Scuola secondaria di primo grado:
 - [MIUR](https://miur.gov.it/scuola-secondaria-di-primo-grado) | [DECRETO 16 novembre 2012, n. 254, Art. 2](https://www.normattiva.it/uri-res/N2Ls?urn:nir:ministero.istruzione.universita.e.ricerca:decreto:2012-11-16;254!vig=2022-09-01)
   - Tecnologia
 - [CINI](https://www.consorzio-cini.it/index.php/it/component/attachments/download/745)
-  - TODO
+  - TODO :warning:
 
 ### Target secondario
 Può essere---adattata---rivolta a studenti di diverse età e indirizzi?
-TODO
+TODO :warning:
 
 ## Motivazione e Finalità
 Perché avete scelto di realizzare questa specifica attività
