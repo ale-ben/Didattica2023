@@ -40,6 +40,14 @@ Scuola secondaria di primo grado:
   - Tecnologia
 - [CINI](https://www.consorzio-cini.it/index.php/it/component/attachments/download/745)
   - TODO :warning:
+  - **Traguardi**
+    - descrive in maniera algoritmica semplici processi della natura o della vita quotidiana o studiati in altre discipline;
+    - progetta, scrive e mette a punto, usando linguaggi di programmazione facili da usare, programmi che applicano selezione, cicli, variabili e forme elementari di ingresso e uscita
+  - **Obiettivi di apprendimento**
+    - sperimentare piccoli cambiamenti in un programma per capirne il comportamento, identificarne gli eventuali difetti, modificarlo
+    - creare applicazioni informatiche a fini espressivi (es, storie, giochi, musiche, ...)
+usando ambienti adatti
+
 
 ### Target secondario
 Può essere---adattata---rivolta a studenti di diverse età e indirizzi?
@@ -50,11 +58,17 @@ Perché avete scelto di realizzare questa specifica attività
 
 Una sua brevissima descrizione generale
 
+La lezione si inserisce nella parte finale di un corso di programmazione con linguaggio a blocchi.
+L'obiettivo principale è quello di consolidare le conoscenze acquisite durante il corso applicandole ad un nuovo ambito, quello della programmazione di microcontrollori.
+
+Se il linguaggio a blocchi studiato è diverso da quello utilizzato per programmare il microcontrollore si ha l'aggiunto vantaggio di poter lavorare sull'approccio ad un nuovo linguaggio molto simile a quello già noto.
 ## Innovatività
 Perché questa proposta è innovativa? Cosa è già presente su questo tema nella ricerca in Didattica dell'Informatica o nelle risorse disponibili online (descrivere brevemente risultati scientifici e risorse) e in cosa si differenzia/cosa mantiene/cosa va a migliorare questa proposta?
 
 ## Prerequisiti
 Elencare i contenuti che si suppone siano già stati svolti e appresi dagli studenti
+
+
 
 ## Contenuti
 Spiegare brevemente i contenuti. Se si tratta di contenuti banalmente chiari per un informatico (e.g. riguardandi esami obbligatori della triennale), elencarli semplicemente. Se ci sono contenuti particolari (es. quantum computing) o specifici illustrarli brevemente, avendo in mente (solo in questa breve sezione) di spiegarli ad un informatico.
