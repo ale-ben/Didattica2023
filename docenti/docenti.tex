@@ -1,0 +1,127 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage[default]{cantarell}
+\usepackage[T1]{fontenc}
+\usepackage[italian]{babel}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{subcaption}
+\linespread{1.25}
+\usepackage{listings}
+\usepackage{fancyhdr} % Gestione header e footer
+
+\usepackage{geometry}
+\geometry{
+    left=15mm,
+    right=15mm,
+    top=20mm,
+    bottom=20mm
+}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=blue
+}
+\usepackage{tabularx}
+
+\usepackage{csquotes}
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex} %Imports biblatex package
+\addbibresource{library.bib} %Import the bibliography file
+
+\usepackage{subfiles} % Best loaded last in the preamble
+
+\definecolor{frontColor}{rgb}{0.20,0.45,0.90}% light blue
+\definecolor{backColor}{RGB}{200,200,200}% grey
+\newcommand{\gradelong}[6]{%
+    \pgfmathtruncatemacro\floored{#1}%
+    \pgfmathsetmacro\diff{#1-\floored}%
+    \newdimen\diffDim%
+    \diffDim = \diff pt%
+    \newdimen\numPointsDim
+    \numPointsDim = #1 pt
+    \newdimen\maxPointsDim%
+    \maxPointsDim = #2 pt%
+    \begin{tikzpicture}
+        \foreach \x in {1, ..., #2}{
+            \ifnum \x > \floored \relax%
+                \def\fillCol{#6}%
+            \else%
+                \def\fillCol{#5}%
+            \fi%
+            \fill[\fillCol] (#3*\x, 0) circle (#4);
+        }%
+        \ifdim \diffDim > 0 pt \relax%
+            \ifdim \numPointsDim > \maxPointsDim \relax%
+            \else%
+                \pgfmathsetmacro\pos{#3*(\floored+1)}%
+                \begin{scope}[xshift=\pos]
+                    \clip (-#4,-#4) rectangle ++(#4*2*\diff,#4*2);
+                    \fill[#5] (0, 0) circle (#4);
+                \end{scope}
+            \fi%
+        \else%
+        \fi%
+    \end{tikzpicture}%
+}
+
+\usepackage{float}
+
+\newcommand{\grade}[1]{%
+    \gradelong%
+    {#1}    % grade as floating point value
+    {5}% max number of points
+    {14pt}% spacing between points
+    {4.5pt}% radius of point
+    {frontColor}% foreground color
+    {backColor}% background color
+}
+
+%   Aumento dello spazio che intercorre tra le row di una tabella
+\renewcommand{\arraystretch}{1.40} 
+\newcommand\spaceSubSectionCorpo{\vspace{.75mm}}
+\newcommand\spaceSezione{\vspace{0.75cm}}
+\definecolor{TextColor}{RGB}{75,75,75} % grey
+
+% Gestione header e footer
+% https://www.overleaf.com/learn/latex/Headers_and_footers
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\leftmark}
+\rfoot{Pagina \thepage}
+\lfoot{[PLACEHODELR4]}
+\setlength{\headheight}{14.49998pt}
+\addtolength{\topmargin}{-2.49998pt}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\graphicspath{{./media/}}
+
+\begin{document}
+
+\pagestyle{empty}
+    \subfile{sections/0_titolo/titolo.tex}
+	\newpage
+	\tableofcontents
+	\newpage
+	\pagenumbering{arabic}	
+	\pagestyle{fancy}
+    \newpage
+	\subfile{sections/1_introduzione/introduzione.tex}
+	\newpage
+	\subfile{sections/2_strumenti_utili/strumenti_utili.tex}
+	\newpage
+	\subfile{sections/3_fondamentali/fondamentali.tex}
+	\newpage
+	\section{Bibliografia}
+	Schema microbit https://microbit.org/teach/classroom-resources/microbit-posters/ DA CONTROLLARE LICENZA
+    \printbibliography[heading=bibintoc]
+\end{document}
