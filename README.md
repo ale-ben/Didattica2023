@@ -4,42 +4,46 @@ author: Alessandro Benetton
 date: 05/04/2023
 ---
 
-# Esame di Didattica dell'Informatica, A.A. 2022/2023
+# 1. Esame di Didattica dell'Informatica, A.A. 2022/2023
 
-- [Esame di Didattica dell'Informatica, A.A. 2022/2023](#esame-di-didattica-dellinformatica-aa-20222023)
-- [Changelog (se necessario)](#changelog-se-necessario)
-- [Inquadramento del lavoro](#inquadramento-del-lavoro)
-	- [Livello di scuola, classe/i, indirizzo](#livello-di-scuola-classei-indirizzo)
-		- [Target principale](#target-principale)
-		- [Target secondario](#target-secondario)
-	- [Motivazione e Finalità](#motivazione-e-finalità)
-	- [Innovatività](#innovatività)
-	- [Prerequisiti](#prerequisiti)
-	- [Contenuti](#contenuti)
-	- [Traguardi e Obiettivi](#traguardi-e-obiettivi)
-		- [Collegamento con i documenti ministeriali/proposte](#collegamento-con-i-documenti-ministerialiproposte)
-		- [Obiettivi di apprendimento](#obiettivi-di-apprendimento)
-	- [Metodologie didattiche](#metodologie-didattiche)
-	- [Tempi](#tempi)
-	- [Spazi](#spazi)
-	- [Materiali e Strumenti](#materiali-e-strumenti)
-- [Sviluppo dei contenuti](#sviluppo-dei-contenuti)
-- [Bibliografia](#bibliografia)
-- [Licenza del documento](#licenza-del-documento)
-- [Meta-sezione (da rimuovere): consigli](#meta-sezione-da-rimuovere-consigli)
+- [1. Esame di Didattica dell'Informatica, A.A. 2022/2023](#1-esame-di-didattica-dellinformatica-aa-20222023)
+- [2. DA RIMUOVERE](#2-da-rimuovere)
+- [3. Changelog (se necessario)](#3-changelog-se-necessario)
+- [4. Inquadramento del lavoro](#4-inquadramento-del-lavoro)
+	- [4.1. Livello di scuola, classe/i, indirizzo](#41-livello-di-scuola-classei-indirizzo)
+		- [4.1.1. Target principale](#411-target-principale)
+		- [4.1.2. Target secondario](#412-target-secondario)
+	- [4.2. Motivazione e Finalità](#42-motivazione-e-finalità)
+	- [4.3. Innovatività](#43-innovatività)
+	- [4.4. Prerequisiti](#44-prerequisiti)
+	- [4.5. Contenuti](#45-contenuti)
+	- [4.6. Traguardi e Obiettivi](#46-traguardi-e-obiettivi)
+		- [4.6.1. Collegamento con i documenti ministeriali/proposte](#461-collegamento-con-i-documenti-ministerialiproposte)
+		- [4.6.2. Obiettivi di apprendimento](#462-obiettivi-di-apprendimento)
+	- [4.7. Metodologie didattiche](#47-metodologie-didattiche)
+	- [4.8. Tempi](#48-tempi)
+	- [4.9. Spazi](#49-spazi)
+	- [4.10. Materiali e Strumenti](#410-materiali-e-strumenti)
+- [5. Sviluppo dei contenuti](#5-sviluppo-dei-contenuti)
+	- [5.1. Materiale didattico per studenti](#51-materiale-didattico-per-studenti)
+		- [5.1.1. Micro:Bit](#511-microbit)
+	- [5.2. Guida per gli insegnanti](#52-guida-per-gli-insegnanti)
+- [6. Bibliografia](#6-bibliografia)
+- [7. Licenza del documento](#7-licenza-del-documento)
+- [8. Meta-sezione (da rimuovere): consigli](#8-meta-sezione-da-rimuovere-consigli)
 
-# DA RIMUOVERE
+# 2. DA RIMUOVERE
 ## Idee esperimenti
 - 1/2P Reaction test con i button e i led del micro bit
 - https://support.microbit.org/support/solutions/articles/19000116318-touch-sensing-on-the-micro-bit capacitive touch
 
-# Changelog (se necessario)	
+# 3. Changelog (se necessario)	
 
-# Inquadramento del lavoro
+# 4. Inquadramento del lavoro
 
-## Livello di scuola, classe/i, indirizzo
+## 4.1. Livello di scuola, classe/i, indirizzo
 
-### Target principale
+### 4.1.1. Target principale
 L'unità didattica è progettata per la scuola secondaria di primo grado:
 - [MIUR](https://miur.gov.it/scuola-secondaria-di-primo-grado) | [DECRETO 16 novembre 2012, n. 254, Art. 2](https://www.normattiva.it/uri-res/N2Ls?urn:nir:ministero.istruzione.universita.e.ricerca:decreto:2012-11-16;254!vig=2022-09-01)
   - Tecnologia
@@ -55,7 +59,7 @@ L'unità didattica è progettata per la scuola secondaria di primo grado:
 usando ambienti adatti
 
 
-### Target secondario
+### 4.1.2. Target secondario
 L'unità didattica puà essere adattata per la scuola secondaria di secondo grado inquadrandola, secondo la proposta di Indicazioni Nazionali ([CINI](https://www.consorzio-cini.it/index.php/it/component/attachments/download/745)) come segue:
   - **Traguardi**
 	- definisce, realizza e valida programmi e sistemi che modellano o simulano sistemi fisici o processi familiari del mondo reale o oggetto di studio nelle altre discipline;
@@ -67,7 +71,7 @@ L'unità didattica puà essere adattata per la scuola secondaria di secondo grad
 limiti delle sue risorse.
 	- scrivere semplici programmi in un linguaggio testuale di programmazione rispettandone la sintassi.
 	- valutare vantaggi e svantaggi di rappresentazioni alternative della stessa informazione;
-## Motivazione e Finalità
+## 4.2. Motivazione e Finalità
 Perché avete scelto di realizzare questa specifica attività //TODO: da completare
 
 La lezione si inserisce nella parte finale di un corso di programmazione con linguaggio a blocchi (si suppone Scratch).
@@ -76,29 +80,29 @@ L'obiettivo principale è quello di consolidare le conoscenze acquisite durante 
 
 Si vuole inoltre introdurre l'uso del linguaggio a blocchi nativo del microcontrollore, così facendo si ha l'opportunità di mostrare come approcciarsi ad un nuovo linguaggio di programmazione ed evidenziare come ogni linguaggio ha i propri vantaggi e svantaggi. Questo passaggio consente inoltre di evidenziare come la scelta del linguaggio da utilizzare per un determinato compito sia una scelta importante e non banale.
 
-## Innovatività
+## 4.3. Innovatività
 //TODO: da completare
 Perché questa proposta è innovativa? Cosa è già presente su questo tema nella ricerca in Didattica dell'Informatica o nelle risorse disponibili online (descrivere brevemente risultati scientifici e risorse) e in cosa si differenzia/cosa mantiene/cosa va a migliorare questa proposta?
 
-## Prerequisiti
+## 4.4. Prerequisiti
 Si suppose che gli studenti abbiano già acquisito familiarità con Scratch e con i concetti di programmazione strutturata (sequenza, selezione, iterazione).
 
-## Contenuti
+## 4.5. Contenuti
 //TODO: da completare
 Spiegare brevemente i contenuti. Se si tratta di contenuti banalmente chiari per un informatico (e.g. riguardandi esami obbligatori della triennale), elencarli semplicemente. Se ci sono contenuti particolari (es. quantum computing) o specifici illustrarli brevemente, avendo in mente (solo in questa breve sezione) di spiegarli ad un informatico.
 
-## Traguardi e Obiettivi
+## 4.6. Traguardi e Obiettivi
 //TODO: da completare
 Quali traguardi e obiettivi di apprendimento si vuole raggiungere con le attività proposte?
 
-### Collegamento con i documenti ministeriali/proposte
+### 4.6.1. Collegamento con i documenti ministeriali/proposte
 //TODO: da completare
 Indicare quali traguardi/obiettivi presenti nei documenti rilevanti vengono
 raggiunti (es. Indicazioni nazionali per il primo ciclo, Nuovi scenari,
 Proposta CINI numerata, Indicazioni nazionali / linee guida per scuola
 secondaria di secondo grado).
 
-### Obiettivi di apprendimento
+### 4.6.2. Obiettivi di apprendimento
 //TODO: da completare
 E' obbligatorio scrivere gli obiettivi di apprendimento specifici basandosi su una tassonomia (es. Bloom rivisitata, Guerra-Frabboni-Arrigo, SOLO, o altre non viste a lezione, debitamente citate e spiegate...)
 
@@ -107,7 +111,7 @@ E' possibile (ma non obbligatorio) organizzarli in termini di
 * obiettivi di conoscenze e abilità
 
 
-## Metodologie didattiche
+## 4.7. Metodologie didattiche
 //TODO: da completare
 Elencare brevemente quali metodologie didattiche si utilizzano.
 
@@ -117,19 +121,19 @@ Massima libertà di introdurre altre metodologie non spiegate a lezione, debitam
 
 Se si parla di didattica della programmazione, fare anche riferimento ai relativi concetti (macchina concettuale, misconcezioni, visualizzazione, program comprehension) spiegati a lezione.
 
-## Tempi
+## 4.8. Tempi
 //TODO: da completare
 Un'idea generale e indicativa dei tempi richiesti
 
-## Spazi
+## 4.9. Spazi
 //TODO: da completare
 Classe, laboratorio, cortile...
 
-## Materiali e Strumenti
+## 4.10. Materiali e Strumenti
 //TODO: da completare
 Quali materiali e strumenti (hardware e software, di ogni tipo, non solo informatico) sono necessari?
 
-# Sviluppo dei contenuti
+# 5. Sviluppo dei contenuti
 //TODO: da completare
 Questa deve essere la parte più corposa del documento.
 Viene lasciata a voi massima libertà su come organizzarla. 
@@ -139,12 +143,19 @@ Deve contenere almeno:
     * Consigli su come utilizzare il materiale didattico. E' possibile inframezzarli al materiale didattico per studenti (ma in tal caso rendere esplicito e facile capire cosa è solo per l'insegnante e cosa invece può/deve essere dato agli studenti)
     * Suggerimenti su come valutare il raggiungimento degli obiettivi di apprendimento da voi individuati (focus non tanto sui voti, ma su valutazione formativa e continuativa)
 
-# Bibliografia
+## 5.1. Materiale didattico per studenti
+### 5.1.1. Micro:Bit
+- Cos'è
+- Cosa può fare
+- Come si usa con scratch
+## 5.2. Guida per gli insegnanti
+
+# 6. Bibliografia
 //TODO: da completare
 Citare le fonti utilizzate (si consiglia ad esempio bibtex o biblatex).
 Scegliere lo stile preferito, e mantenerlo coerente ([esempio](https://www.acm.org/publications/authors/reference-formatting))
 
-# Licenza del documento
+# 7. Licenza del documento
 //TODO: da completare
 Specificare la licenza del documento.
 
@@ -154,7 +165,7 @@ colleghi o insegnanti.
 
 NB: non basta specificare una licenza, bisogna anche rispettarla (es. non includere testi o immagini con licenze non compatibili con quella scelta, non copiare lunghi pezzi di testo senza rendere chiaro che si tratta di una citazione)
 
-# Meta-sezione (da rimuovere): consigli
+# 8. Meta-sezione (da rimuovere): consigli
 
 Per ricercare articoli scientifici, potete usare [Scholar](https://scholar.google.com/). Se connessi da rete UniBO o da casa tramite un [proxy](https://sba.unibo.it/it/almare/servizi-e-strumenti-almare/ezproxy), potete accedere alle banche dati degli editori. Per esempio, potete cercare sulla [Digital Library dell'ACM](https://dl.acm.org/), eventualmente [specializzando la ricerca](https://dl.acm.org/sig/sigcse) ai soli paper relativi al gruppo di interesse per la didattica dell'Informatica (NB: non utilizzare i suggerimenti che compaiono mentre si digita il testo da cercare, pena la perdita del filtro sui soli paper SIGCSE. Notare che, comunque, paper di Didattica dell'Informatica sono pubblicati anche al di fuori di SIGCSE, esempio di in conferenze e riviste di Human-Computer interaction).
 
