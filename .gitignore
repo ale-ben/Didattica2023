@@ -1,2 +1,14 @@
 /Didattica2023.code-workspace
 /.DS_Store
+/docenti/.DS_Store
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.xml
+*.gz
+*.toc
