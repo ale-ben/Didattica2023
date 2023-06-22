@@ -1,8 +1,85 @@
-\documentclass[../../main.tex]{subfiles}
+\documentclass[../../docenti.tex]{subfiles}
 
 \begin{document}
 \section{Passaggi Fondamentali}
+Questa sezione fungerà da introduzione all'editor Make:Code e ad un argomento fondamentale nella programmazione di microcontrollori: \textit{Input/Output}.
+
+\subsection{Make:Code}
+Make:Code è un editor online per programmare MicroBit. Per accedervi basta andare sul sito \url{https://makecode.microbit.org/} e cliccare su \textit{Nuovo Progetto}.
+
+Il linguaggio a blocchi è simile a scratch, ma non uguale. Scratch nasce con l'obiettivo di insegnare a programmare tramite teatralizzazione e storytelling mentre Make:Code nasce con l'obiettivo di insegnare a programmare usando un microcontrollore.
+
+Questa differenza è evidente nel modo in cui l'editor invita a strutturare il codice, scratch invita a creare molti codici "in parallelo" utilizzando un punto di partenza per ogni sequenza di comandi, makecode, invece, invita una struttura del codice sequenziale.\\
+La struttura del codice in makecode è molto simile a quella di un programma per microcontrollori scritto in un linguaggio di programmazione testuale, ovvero composta da due blocchi di codice, il "setup" e il "loop".\\
+Il primo blocco racchiude il codice che viene eseguito una sola volta all'avvio del microcontrollore, mentre il secondo blocco racchiude il codice che viene eseguito in loop, ovvero ripetutamente, fino a quando il microcontrollore è acceso.
+
+È possibile programmare Micro:Bit utilizzando scratchX e l'estensione per Micro:Bit, ma non è consigliato in quanto non è possibile utilizzare tutte le funzionalità di Make:Code e non si ha a disposizione il simulatore.
+
+
+
+\subsubsection{[Attività] Discussione sulle differenze tra Scratch e MakeCode}
+
+\customcallout{1em}{40em}{Questo potrebbe essere un ottimo momento per raccogliere delle osservazioni informali osservando come il gruppo si approccia ad un nuovo editor, sia in fase di "gioco" che in quella di confronto.}
+
+L'obiettivo di questa attività è quello di far discutere gli studenti sulle differenze tra Scratch\\ e MakeCode.\\
+Per fare ciò si consiglia di dividere gli studenti in gruppi da 2-3 persone e dare 5 minuti di tempo per giocare con l'editor e capire come funziona.\\
+In seguito dare 10 minuti agli studenti e chiedere loro di identificare i punti in comune e le differenze tra Scratch e MakeCode (volendo si può fornire un esempio prima di iniziare).\\
+Scaduto il tempo chiedere ad ogni gruppo di esporre le proprie idee e discutere con la classe.
+
+\paragraph{Esempi}
+\begin{itemize}
+	\item Scratch ha una finestra in cui si possono vedere ed animare i personaggi, MakeCode ha una finestra con un simulatore del microcontrollore. Questo perché Scratch è nato per creare giochi, storie ed animazioni, mentre MakeCode è nato per programmare un microcontrollore.
+	\item La categoria "Sensori" di scratch corrisponde alla categoria "Input" di MakeCode.
+	\item Il comando "Dire" di scratch corrisponde al comando "Mostra Stringa/Numero" di MakeCode.
+\end{itemize}
 
 \subsection{Input e Output}
+MicroBit presenta molte periferiche di input e output, come visto nelle sezioni precedenti.\\
+In questa sezione verranno introdotti i concetti di input e output e verranno mostrati alcuni esempi di come utilizzarli.
+Le seguenti attività sono pensate per consentire agli studenti di familiarizzare con l'editor di makecode, con il simulatore e con i concetti di input e output relativi a microbit.
+
+\subsubsection{[Attività] Output}
+MicroBit ha un display a matrice di led che può essere utilizzato per mostrare testo, numeri e immagini.\\
+L'obiettivo di questa attività è quello di scrivere un programma che scriva sul display il contenuto di una variabile.\\
+Il valore verrà impostato nel blocco di setup e sarà costante per tutto il programma.
+\paragraph{Soluzione}
+Sono possibili più soluzioni, l'importante è che rispettino i seguenti criteri:
+\begin{itemize}
+	\item Il valore della variabile deve essere impostato nel blocco di setup.
+	\item Deve essere usato il comando corretto tra "Mostra Stringa" e "Mostra Numero" per mostrare il valore in base al tipo di dato salvato nella variabile.
+\end{itemize}
+
+\paragraph{Discussione} \textit{Il comando "Mostra Stringa/Numero" può essere inserito sia nel blocco di setup che in quello di loop, ci sono differenze? Cambia qualcosa se la stringa è composta da un solo carattere o da più caratteri? (Lo stesso discorso vale per il numero)}
+
+\customcallout{1em}{40em}{Si consiglia di chiedere agli studenti cosa si aspettano che succeda e di far scrivere il codice per verificare le loro ipotesi.}
+
+Se il comando "Mostra Stringa/Numero" si trova nel blocco di setup, il display mostrerà solo una volta il contenuto della variabile. Se invece si trova nel blocco di loop, il display mostrerà il contenuto della variabile ripetutamente fino a quando il microcontrollore è acceso.\\
+Il display di MicroBit può mostrare un carattere alla volta, per questo motivo il comando "Mostra Stringa/Numero" agirà in maniera diversa se la stringa è composta da un solo carattere o da più caratteri.\\
+Nel primo caso verrà visualizzato il carattere e questo resterà nel display fino a quando un nuovo comando non modificherà il display (In questo caso mettere il comando nel blocco di setup o loop è indifferente).\\
+Nel secondo caso il display visualizzerà la sequenza di caratteri a  scorrimento e, una volta terminata, il display tornerà vuoto. (In questo caso vi è una differenza tra mettere il comando nel blocco di setup o in quello di loop)
+
+\subsubsection{[Attività] Input e Output}
+
+MicroBit ha 2 pulsanti di input fisici.\\
+L'obiettivo di questa attività è quello di estendere il programma precedente al fine di aumentare o diminuire il valore di una variabile numerica mostrata a schermo in base al pulsante premuto.
+
+\paragraph{Specifiche}
+Il programma deve
+\begin{itemize}
+	\item Mostrare il valore di una variabile numerica a schermo inizializzata a 5.
+	\item Decrementare il valore della variabile di 1 se il pulsante A viene premuto.
+	\item Incrementare il valore della variabile di 1 se il pulsante B viene premuto.
+	\item Aggiornare costantemente il valore mostrato a schermo per riflettere quello della variabile.
+	\item (OPZIONALE) Fare in modo che il valore non esca dal range \(0\leq x \leq 9\)
+\end{itemize}
+
+\paragraph{Soluzione}
+La soluzione dovrebbe estendere il codice scritto precedentemente (utilizzando "Mostra numero" nel blocco loop) aggiungendo due punti di partenza per la rilevazione degli eventi "Pulsante A premuto" e "Pulsante B premuto".\\
+Si può trovare una possibile soluzione all'interno della cartella \textit{sorgenti} con il nome \textit{microbit-Activity1.hex}\footnote{Per vedere come caricare un file in MakeCode consultare \autoref{sec:makecode_save_load}}
+
+\newpage
 \subsection{Time}
+Nell'ambito della programmazione di microcontrollori è raro avere accesso al tempo reale, generalmente si ha accesso ad un timer interno al microcontrollore che può essere utilizzato per misurare intervalli di tempo.
+
+
 \end{document}

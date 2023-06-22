@@ -75,6 +75,15 @@ sorting=ynt
     \end{tikzpicture}%
 }
 
+% Separatore per le box
+\newcommand*{\customcallout}[3]{%
+	\vspace{#1}
+	\begin{center}
+	\fbox{\parbox{#2}{#3}}
+	\end{center}
+	\vspace{#1}
+}
+
 \usepackage{float}
 
 \newcommand{\grade}[1]{%
