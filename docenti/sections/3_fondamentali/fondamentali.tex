@@ -59,8 +59,10 @@ Nel primo caso verrà visualizzato il carattere e questo resterà nel display fi
 Nel secondo caso il display visualizzerà la sequenza di caratteri a  scorrimento e, una volta terminata, il display tornerà vuoto. (In questo caso vi è una differenza tra mettere il comando nel blocco di setup o in quello di loop)
 
 \subsubsection{[Attività] Input e Output}
+Esistono due modi di interagire con un pulsante, il primo è quello di controllare se il pulsante è premuto in un dato momento (se in questo momento il pulsante A è premuto, allora ..., altrimenti ...), il secondo consiste nell'utilizzare gli eventi (Quando A viene premuto esegui ...).\\
+La principale differenza è che il primo metodo funziona in maniera sequenziale rispetto al resto del codice (se A viene premuto ma il codice non è arrivato al controllo allora la pressione viene ignorata), il secondo agisce in parallelo rispetto al resto del codice (Il codice viene eseguito immediatamente ogni volta che A viene premuto).
 
-MicroBit ha 2 pulsanti di input fisici.\\
+\vspace{1em}
 L'obiettivo di questa attività è quello di estendere il programma precedente al fine di aumentare o diminuire il valore di una variabile numerica mostrata a schermo in base al pulsante premuto.
 
 \paragraph{Specifiche}
@@ -75,11 +77,38 @@ Il programma deve
 
 \paragraph{Soluzione}
 La soluzione dovrebbe estendere il codice scritto precedentemente (utilizzando "Mostra numero" nel blocco loop) aggiungendo due punti di partenza per la rilevazione degli eventi "Pulsante A premuto" e "Pulsante B premuto".\\
-Si può trovare una possibile soluzione all'interno della cartella \textit{sorgenti} con il nome \textit{microbit-Activity1.hex}\footnote{Per vedere come caricare un file in MakeCode consultare \autoref{sec:makecode_save_load}}
+Si può trovare una possibile soluzione all'interno della cartella \textit{sorgenti} con il nome \textit{microbit-1-input\_output.hex}\footnote{Per vedere come caricare un file in MakeCode consultare \autoref{sec:makecode_save_load}}
 
 \newpage
 \subsection{Time}
-Nell'ambito della programmazione di microcontrollori è raro avere accesso al tempo reale, generalmente si ha accesso ad un timer interno al microcontrollore che può essere utilizzato per misurare intervalli di tempo.
+Nell'ambito della programmazione di microcontrollori è raro avere accesso al tempo reale (orario dell'orologio), generalmente si ha accesso ad un timer interno al microcontrollore che viene inizializzato all'avvio e può essere utilizzato per misurare intervalli di tempo.
+
+\subsubsection{[Attività] Cronometro}
+L'obiettivo di questa attività è quello di scrivere un programma che misuri il tempo trascorso tra due pressioni di un pulsante e lo mostri a schermo.
+
+\paragraph{Specifiche} Il programma deve:
+\begin{itemize}
+	\item Mostrare un simbolo sul display per indicare che il cronometro è pronto.
+	\item Alla prima pressione del pulsante A iniziare a misurare il tempo trascorso e cambiare il simbolo sullo schermo.
+	\item Alla successiva pressione del pulsante A deve terminare la misurazione del tempo e scrivere il risultato sullo schermo
+\end{itemize}
+
+\paragraph{Soluzione}
+Esistono diverse soluzioni a questo problema, nella cartella \textit{sorgenti} sono presenti due delle soluzioni possibili,  \textit{microbit-2-time-a.hex} e \textit{microbit-2-time-b.hex}.\\
+La prima soluzione utilizza un comando "pausa" nel blocco di loop per rallentare il programma ed ogni secondo incrementa di 1 la variabile contatore.\\
+La seconda soluzione salva in una variabile i millisecondi passati dall'avvio del programma alla prima pressione di A, poi salva quelli passati dall'avvio alla seconda pressione di A, infine calcola la differenza tra i due valori e la mostra a schermo.
+
+La seconda soluzione è preferibile in quanto non rallenta il programma e non richiede di utilizzare un comando "pausa" ma è meno intuitiva dal punto di vista dello studente.
+
+\paragraph{Discussione} (Dopo aver mostrato entrambe le soluzioni) \textit{Quali sono i vantaggi e gli svantaggi delle due soluzioni? Qual'è la soluzione più precisa?}
+
+\vspace{1em}
+La prima soluzione è più semplice da capire e da implementare dato che usa meno variabili ma è meno precisa.
+Spesso si cerca di evitare il comando "pausa" nella programmazione di microcontrollori poichè questo interrompe l'esecuzione dell'intero programma (non è detto che sia sbagliato usarlo, dipende molto da cosa si sta creando).\\
+Inoltre la prima soluzione è meno precisa in quanto l'incremento viene fatto ogni secondo, questo significa che se il tempo trascorso è 1.9 secondi verrà mostrato 1 secondo, se il tempo trascorso è 2.1 secondi verrà mostrato 2 secondi.
+
+La seconda soluzione è più precisa in quanto utilizza i millisecondi per misurare il tempo trascorso, inoltre non blocca l'esecuzione del programma. Lo svantaggio principale di questa soluzione è l'introduzione di due variabili aggiuntive e la conseguente complicazione del codice.
+
 
 
 \end{document}
