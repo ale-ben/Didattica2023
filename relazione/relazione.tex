@@ -41,52 +41,6 @@ sorting=ynt
 
 \usepackage{subfiles} % Best loaded last in the preamble
 
-\definecolor{frontColor}{rgb}{0.20,0.45,0.90}% light blue
-\definecolor{backColor}{RGB}{200,200,200}% grey
-\newcommand{\gradelong}[6]{%
-    \pgfmathtruncatemacro\floored{#1}%
-    \pgfmathsetmacro\diff{#1-\floored}%
-    \newdimen\diffDim%
-    \diffDim = \diff pt%
-    \newdimen\numPointsDim
-    \numPointsDim = #1 pt
-    \newdimen\maxPointsDim%
-    \maxPointsDim = #2 pt%
-    \begin{tikzpicture}
-        \foreach \x in {1, ..., #2}{
-            \ifnum \x > \floored \relax%
-                \def\fillCol{#6}%
-            \else%
-                \def\fillCol{#5}%
-            \fi%
-            \fill[\fillCol] (#3*\x, 0) circle (#4);
-        }%
-        \ifdim \diffDim > 0 pt \relax%
-            \ifdim \numPointsDim > \maxPointsDim \relax%
-            \else%
-                \pgfmathsetmacro\pos{#3*(\floored+1)}%
-                \begin{scope}[xshift=\pos]
-                    \clip (-#4,-#4) rectangle ++(#4*2*\diff,#4*2);
-                    \fill[#5] (0, 0) circle (#4);
-                \end{scope}
-            \fi%
-        \else%
-        \fi%
-    \end{tikzpicture}%
-}
-
-\usepackage{float}
-
-\newcommand{\grade}[1]{%
-    \gradelong%
-    {#1}    % grade as floating point value
-    {5}% max number of points
-    {14pt}% spacing between points
-    {4.5pt}% radius of point
-    {frontColor}% foreground color
-    {backColor}% background color
-}
-
 %   Aumento dello spazio che intercorre tra le row di una tabella
 \renewcommand{\arraystretch}{1.40} 
 \newcommand\spaceSubSectionCorpo{\vspace{.75mm}}
@@ -114,6 +68,10 @@ sorting=ynt
 	\newpage
 	\pagenumbering{arabic}	
 	\pagestyle{fancy}
+	\newpage
+	\subfile{sections/1_inquadramento/inquadramento.tex}
+	\newpage
+	\subfile{sections/2_sviluppo/sviluppo.tex}
     \newpage
 	\subfile{sections/9_licenza/licenza.tex}
     \printbibliography[heading=bibintoc]
