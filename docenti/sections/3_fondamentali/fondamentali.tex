@@ -7,7 +7,7 @@ Questa sezione fungerà da introduzione all'editor Make:Code e ad un argomento f
 \subsection{Make:Code}
 Make:Code è un editor online per programmare MicroBit. Per accedervi basta andare sul sito \url{https://makecode.microbit.org/} e cliccare su \textit{Nuovo Progetto}.
 
-Il linguaggio a blocchi è simile a scratch, ma non uguale. Scratch nasce con l'obiettivo di insegnare a programmare tramite teatralizzazione e storytelling mentre Make:Code nasce con l'obiettivo di insegnare a programmare usando un microcontrollore.
+Il linguaggio a blocchi è simile a scratch, ma non uguale. Scratch nasce con l'obiettivo di insegnare a programmare tramite teatralizzazione e storytelling mentre Make:Code nasce con l'obiettivo di insegnare a programmare usando un microcontrollore e gamification.
 
 Questa differenza è evidente nel modo in cui l'editor invita a strutturare il codice, scratch invita a creare molti codici "in parallelo" utilizzando un punto di partenza per ogni sequenza di comandi, makecode, invece, invita una struttura del codice sequenziale.\\
 La struttura del codice in makecode è molto simile a quella di un programma per microcontrollori scritto in un linguaggio di programmazione testuale, ovvero composta da due blocchi di codice, il "setup" e il "loop".\\
@@ -24,11 +24,11 @@ Il primo blocco racchiude il codice che viene eseguito una sola volta all'avvio 
 L'obiettivo di questa attività è quello di far discutere gli studenti sulle differenze tra Scratch\\ e MakeCode.\\
 Per fare ciò si consiglia di dividere gli studenti in gruppi da 2-3 persone e dare 5 minuti di tempo per giocare con l'editor e capire come funziona.\\
 In seguito dare 10 minuti agli studenti e chiedere loro di identificare i punti in comune e le differenze tra Scratch e MakeCode (volendo si può fornire un esempio prima di iniziare).\\
-Scaduto il tempo chiedere ad ogni gruppo di esporre le proprie idee e discutere con la classe.
+Scaduto il tempo chiedere alla classe di esporre le proprie idee e discuterle.
 
 \paragraph{Esempi}
 \begin{itemize}
-	\item Scratch ha una finestra in cui si possono vedere ed animare i personaggi, MakeCode ha una finestra con un simulatore del microcontrollore. Questo perché Scratch è nato per creare giochi, storie ed animazioni, mentre MakeCode è nato per programmare un microcontrollore.
+	\item Scratch ha una finestra in cui si possono vedere ed animare i personaggi, MakeCode ha una finestra con un simulatore del microcontrollore.
 	\item La categoria "Sensori" di scratch corrisponde alla categoria "Input" di MakeCode.
 	\item Il comando "Dire" di scratch corrisponde al comando "Mostra Stringa/Numero" di MakeCode.
 \end{itemize}
@@ -38,7 +38,7 @@ MicroBit presenta molte periferiche di input e output, come visto nelle sezioni 
 In questa sezione verranno introdotti i concetti di input e output e verranno mostrati alcuni esempi di come utilizzarli.
 Le seguenti attività sono pensate per consentire agli studenti di familiarizzare con l'editor di makecode, con il simulatore e con i concetti di input e output relativi a microbit.
 
-\subsubsection{[Attività] Output}
+\subsubsection{Attività 1 - Display}
 MicroBit ha un display a matrice di led che può essere utilizzato per mostrare testo, numeri e immagini.\\
 L'obiettivo di questa attività è quello di scrivere un programma che scriva sul display il contenuto di una variabile.\\
 Il valore verrà impostato nel blocco di setup e sarà costante per tutto il programma.
@@ -58,7 +58,7 @@ Il display di MicroBit può mostrare un carattere alla volta, per questo motivo 
 Nel primo caso verrà visualizzato il carattere e questo resterà nel display fino a quando un nuovo comando non modificherà il display (In questo caso mettere il comando nel blocco di setup o loop è indifferente).\\
 Nel secondo caso il display visualizzerà la sequenza di caratteri a  scorrimento e, una volta terminata, il display tornerà vuoto. (In questo caso vi è una differenza tra mettere il comando nel blocco di setup o in quello di loop)
 
-\subsubsection{[Attività] Input e Output}
+\subsubsection{Attività 2 - Contatore}
 Esistono due modi di interagire con un pulsante, il primo è quello di controllare se il pulsante è premuto in un dato momento (se in questo momento il pulsante A è premuto, allora ..., altrimenti ...), il secondo consiste nell'utilizzare gli eventi (Quando A viene premuto esegui ...).\\
 La principale differenza è che il primo metodo funziona in maniera sequenziale rispetto al resto del codice (se A viene premuto ma il codice non è arrivato al controllo allora la pressione viene ignorata), il secondo agisce in parallelo rispetto al resto del codice (Il codice viene eseguito immediatamente ogni volta che A viene premuto).
 
@@ -68,7 +68,7 @@ L'obiettivo di questa attività è quello di estendere il programma precedente a
 \paragraph{Specifiche}
 Il programma deve
 \begin{itemize}
-	\item Mostrare il valore di una variabile numerica a schermo inizializzata a 5.
+	\item Mostrare il valore di una variabile numerica a schermo.
 	\item Decrementare il valore della variabile di 1 se il pulsante A viene premuto.
 	\item Incrementare il valore della variabile di 1 se il pulsante B viene premuto.
 	\item Aggiornare costantemente il valore mostrato a schermo per riflettere quello della variabile.
@@ -79,11 +79,12 @@ Il programma deve
 La soluzione dovrebbe estendere il codice scritto precedentemente (utilizzando "Mostra numero" nel blocco loop) aggiungendo due punti di partenza per la rilevazione degli eventi "Pulsante A premuto" e "Pulsante B premuto".\\
 Si può trovare una possibile soluzione all'interno della cartella \textit{sorgenti} con il nome \textit{microbit-1-input\_output.hex}\footnote{Per vedere come caricare un file in MakeCode consultare \autoref{sec:makecode_save_load}}
 
+È possibile una seconda soluzione che prevede il comando "Monstra numero" a seguito di ogni incremento / decremento, consentendo così di non avere il blocco loop.
 \newpage
 \subsection{Time}
 Nell'ambito della programmazione di microcontrollori è raro avere accesso al tempo reale (orario dell'orologio), generalmente si ha accesso ad un timer interno al microcontrollore che viene inizializzato all'avvio e può essere utilizzato per misurare intervalli di tempo.
 
-\subsubsection{[Attività] Cronometro}
+\subsubsection{Attività 3 - Cronometro}
 L'obiettivo di questa attività è quello di scrivere un programma che misuri il tempo trascorso tra due pressioni di un pulsante e lo mostri a schermo.
 
 \paragraph{Specifiche} Il programma deve:
