@@ -1,14 +1,14 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.12.5)  31 MAY 2023 09:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.6.3)  3 JUL 2023 09:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **/Users/aleben/UniProjects/Didattica2023/studenti/studenti.tex
 (/Users/aleben/UniProjects/Didattica2023/studenti/studenti.tex
-LaTeX2e <2022-11-01>
-L3 programming layer <2022-11-02> (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamer.cls
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-05-15> (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamer.cls
 Document Class: beamer 2023/05/15 v3.70 A class for typesetting presentations
-(/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbasemodes.sty (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoolbox/etoolbox.sty
+(/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbasemodes.sty (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count185
 )
@@ -22,7 +22,7 @@ Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 )
 \beamer@commentbox=\box53
 \beamer@modecount=\count190
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 )
 \headdp=\dimen140
@@ -41,7 +41,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \beamer@vboxoffset=\dimen153
 \beamer@descdefault=\dimen154
 \beamer@descriptionwidth=\dimen155
-\beamer@lastskip=\skip47
+\beamer@lastskip=\skip48
 \beamer@areabox=\box54
 \beamer@animcurrent=\box55
 \beamer@animshowbox=\box56
@@ -68,15 +68,15 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \beamer@sectionadjust=\count274
 \beamer@toclastsection=\count275
 \beamer@tocsectionnumber=\count276
- (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbaseoptions.sty (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbaseoptions.sty (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 ))
-\beamer@paperwidth=\skip48
-\beamer@paperheight=\skip49
+\beamer@paperwidth=\skip49
+\beamer@paperheight=\skip50
  (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifvtex.sty
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count277
@@ -91,20 +91,20 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen162
 \Gm@layoutvoffset=\dimen163
 \Gm@dimlist=\toks17
- (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg)) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/math/pgfmath.sty (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.tex
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/geometry/geometry.cfg)) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/math/pgfmath.sty (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfrcs.sty (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks18
 \pgfutil@tempdima=\dimen164
 \pgfutil@tempdimb=\dimen165
- (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfutil-common-lists.tex)) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.def
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box60
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
-)) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfrcs.code.tex (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+)) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/pgfkeys.sty (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks19
 \pgfkeys@temptoks=\toks20
- (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks21
-))) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.tex (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.tex
+))) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathutil.code.tex
 \pgf@x=\dimen166
 \pgf@xa=\dimen167
 \pgf@xb=\dimen168
@@ -117,35 +117,34 @@ Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 \c@pgf@countb=\count281
 \c@pgf@countc=\count282
 \c@pgf@countd=\count283
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.tex
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathparser.code.tex
 \pgfmath@dimen=\dimen174
 \pgfmath@count=\count284
 \pgfmath@box=\box61
 \pgfmath@toks=\toks22
 \pgfmath@stack@operand=\toks23
 \pgfmath@stack@operation=\toks24
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.code.tex (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex))) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.tex
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.code.tex) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.random.code.tex) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.base.code.tex) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.round.code.tex) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.tex) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathcalc.code.tex) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count285
-))) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size11.clo
+))) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/size11.clo
 File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx.sty
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/basiclayer/pgfcore.sty (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics.sty
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen175
 \Gin@req@width=\dimen176
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
- (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/systemlayer/pgfsys.sty (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 \pgf@x=\dimen177
 \pgf@y=\dimen178
 \pgf@xa=\dimen179
@@ -166,27 +165,27 @@ Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 \t@pgf@tokb=\toks26
 \t@pgf@tokc=\toks27
 \pgf@sys@id@count=\count290
- (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2021/05/15 v3.1.9a (3.1.9a)
- (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
-))) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+))) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count291
 \pgfsyssoftpath@bigbuffer@items=\count292
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-)) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/color.cfg
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics-cfg/color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx)
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/graphics/mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -196,10 +195,10 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
- (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfmath.code.tex) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfint.code.tex) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/math/pgfint.code.tex) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen187
 \pgf@picmaxx=\dimen188
 \pgf@picminy=\dimen189
@@ -214,67 +213,67 @@ File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@yy=\dimen198
 \pgf@zx=\dimen199
 \pgf@zy=\dimen256
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen257
 \pgf@path@lasty=\dimen258
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen259
 \pgf@shorten@start@additional=\dimen260
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box62
 \pgf@hbox=\box63
 \pgf@layerbox@main=\box64
 \pgf@picture@serial@count=\count293
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen261
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
-File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen262
 \pgf@pt@y=\dimen263
 \pgf@pt@temp=\dimen264
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
-File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen265
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen266
 \pgf@sys@shading@range@num=\count294
 \pgf@shadingcount=\count295
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
- (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box65
-)) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-))) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/xxcolor.sty
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/pgf/utilities/xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
 \XC@nummixins=\count296
 \XC@countmixins=\count297
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/atbegshi-ltx.sty
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2022-11-13 v7.00u Hypertext links for LaTeX
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-04-22 v7.00x Hypertext links for LaTeX
  (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/pdftexcmds/pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
  (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/infwarerr/infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
@@ -294,7 +293,7 @@ Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 ) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/auxhook/auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/nameref.sty
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/nameref.sty
 Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
  (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/refcount/refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -308,37 +307,35 @@ Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 \@linkdim=\dimen267
 \Hy@linkcounter=\count299
 \Hy@pagecounter=\count300
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2022-11-13 v7.00u Hyperref: PDFDocEncoding definition (HO)
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-04-22 v7.00x Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 ) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/intcalc/intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
-) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/etexcmds/etexcmds.sty
-Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
 \Hy@SavedSpaceFactor=\count301
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/puenc.def
-File: puenc.def 2022-11-13 v7.00u Hyperref: PDF Unicode definition (HO)
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-04-22 v7.00x Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `bookmarks' set `true' on input line 4045.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 4045.
-Package hyperref Info: Option `implicit' set `false' on input line 4045.
-Package hyperref Info: Hyper figures OFF on input line 4162.
-Package hyperref Info: Link nesting OFF on input line 4167.
-Package hyperref Info: Hyper index ON on input line 4170.
-Package hyperref Info: Plain pages OFF on input line 4177.
-Package hyperref Info: Backreferencing OFF on input line 4182.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4065.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4065.
+Package hyperref Info: Option `implicit' set `false' on input line 4065.
+Package hyperref Info: Hyper figures OFF on input line 4182.
+Package hyperref Info: Link nesting OFF on input line 4187.
+Package hyperref Info: Hyper index ON on input line 4190.
+Package hyperref Info: Plain pages OFF on input line 4197.
+Package hyperref Info: Backreferencing OFF on input line 4202.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
-Package hyperref Info: Bookmarks ON on input line 4410.
+Package hyperref Info: Bookmarks ON on input line 4449.
 \c@Hy@tempcnt=\count302
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/url/url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4748.
+LaTeX Info: Redefining \url on input line 4787.
 \XeTeXLinkMargin=\dimen268
  (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/bitset/bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
@@ -348,13 +345,13 @@ Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
 \Fld@menulength=\count303
 \Field@Width=\dimen269
 \Fld@charsize=\dimen270
-Package hyperref Info: Hyper figures OFF on input line 6027.
-Package hyperref Info: Link nesting OFF on input line 6032.
-Package hyperref Info: Hyper index ON on input line 6035.
-Package hyperref Info: backreferencing OFF on input line 6042.
-Package hyperref Info: Link coloring OFF on input line 6047.
-Package hyperref Info: Link coloring with OCG OFF on input line 6052.
-Package hyperref Info: PDF/A mode OFF on input line 6057.
+Package hyperref Info: Hyper figures OFF on input line 6066.
+Package hyperref Info: Link nesting OFF on input line 6071.
+Package hyperref Info: Hyper index ON on input line 6074.
+Package hyperref Info: backreferencing OFF on input line 6081.
+Package hyperref Info: Link coloring OFF on input line 6086.
+Package hyperref Info: Link coloring with OCG OFF on input line 6091.
+Package hyperref Info: PDF/A mode OFF on input line 6096.
 \Hy@abspage=\count304
 
 
@@ -362,9 +359,9 @@ Package hyperref Message: Stopped early.
 
 )
 Package hyperref Info: Driver (autodetected): hpdftex.
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2022-11-13 v7.00u Hyperref driver for pdfTeX
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/atveryend-ltx.sty
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-04-22 v7.00x Hyperref driver for pdfTeX
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
 with kernel methods
 )
@@ -376,9 +373,9 @@ Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
-)) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbaserequires.sty (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbasecompatibility.sty) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbasefont.sty (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amssymb.sty
+)) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbaserequires.sty (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbasecompatibility.sty) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbasefont.sty (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts.sty
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks28
 \symAMSa=\mathgroup4
@@ -398,7 +395,7 @@ Package: scrlogo 2023/04/24 v3.40 KOMA-Script package (logo)
 Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 )) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbasemisc.sty) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbasetwoscreens.sty) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbaseoverlay.sty
 \beamer@argscount=\count307
-\beamer@lastskipcover=\skip50
+\beamer@lastskipcover=\skip51
 \beamer@trivlistdepth=\count308
 ) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbasetitle.sty) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbasesection.sty
 \c@lecture=\count309
@@ -414,10 +411,10 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 \beamer@zoomframecount=\count315
 \beamer@frametextheight=\dimen271
 \c@subsectionslide=\count316
-\beamer@frametopskip=\skip51
-\beamer@framebottomskip=\skip52
-\beamer@frametopskipautobreak=\skip53
-\beamer@framebottomskipautobreak=\skip54
+\beamer@frametopskip=\skip52
+\beamer@framebottomskip=\skip53
+\beamer@frametopskipautobreak=\skip54
+\beamer@framebottomskipautobreak=\skip55
 \beamer@envbody=\toks29
 \framewidth=\dimen272
 \c@framenumber=\count317
@@ -447,32 +444,32 @@ Package: translator 2021-05-31 v1.12d Easy translation of strings in LaTeX
 \bmb@prevheight=\dimen280
 )
 \beamer@blockheadheight=\dimen281
-)) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbaselocalstructure.sty (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/enumerate.sty
+)) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbaselocalstructure.sty (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks33
 )
-\beamer@bibiconwidth=\skip55
+\beamer@bibiconwidth=\skip56
 \c@figure=\count319
 \c@table=\count320
-\abovecaptionskip=\skip56
-\belowcaptionskip=\skip57
+\abovecaptionskip=\skip57
+\belowcaptionskip=\skip58
 ) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbasenavigation.sty (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbasenavigationsymbols.tex)
 \beamer@section@min@dim=\dimen282
-) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbasetheorems.sty (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbasetheorems.sty (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2022/04/08 v2.17n AMS math features
-\@mathmargin=\skip58
+\@mathmargin=\skip59
 
 For additional information on amsmath, use the `?' option.
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amstext.sty
+(/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsgen.sty
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks34
 \ex@=\dimen283
-)) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.sty
+)) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen284
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.sty
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
 \inf@bad=\count321
@@ -517,8 +514,8 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \totwidth@=\dimen290
 \lineht@=\dimen291
 \@envbody=\toks37
-\multlinegap=\skip59
-\multlinetaggap=\skip60
+\multlinegap=\skip60
+\multlinetaggap=\skip61
 \mathdisplay@stack=\toks38
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
@@ -529,75 +526,67 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headfont=\toks41
 \thm@notefont=\toks42
 \thm@headpunct=\toks43
-\thm@preskip=\skip61
-\thm@postskip=\skip62
-\thm@headsep=\skip63
+\thm@preskip=\skip62
+\thm@postskip=\skip63
+\thm@headsep=\skip64
 \dth@everypar=\toks44
 )
 \c@theorem=\count333
 ) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerbasethemes.sty)) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerthemedefault.sty (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerfontthemedefault.sty) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamercolorthemedefault.sty) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerinnerthemedefault.sty
 \beamer@dima=\dimen292
 \beamer@dimb=\dimen293
-) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerouterthemedefault.sty))) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/beamer/beamerouterthemedefault.sty))) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks45
 \inpenc@posthook=\toks46
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
-Package: babel 2022/10/23 3.82 The Babel package
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/babel.sty
+Package: babel 2023/05/11 v3.89 The Babel package
 \babel@savecnt=\count334
 \U@D=\dimen294
-\l@unhyphenated=\language1
- (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/txtbabel.def)
+\l@unhyphenated=\language79
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read3
-LaTeX Info: Redefining \textlatin on input line 4138.
+LaTeX Info: Redefining \textlatin on input line 3921.
 \bbl@dirlevel=\count335
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(/Library/Application Support/MiKTeX/texmfs/install/tex/latex/arabi/bblopts.cfg
+(/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/arabi/bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
 ) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/babel-italian/italian.ldf
 Language: italian 2022/03/27 v.1.4.07 Italian support for the babel system
-
-
-Package babel Warning: No hyphenation patterns were preloaded for
-(babel)                the language 'Italian' into the format.
-(babel)                Please, configure your TeX system to add them and
-(babel)                rebuild the format. Now I will use the patterns
-(babel)                preloaded for \language=0 instead on input line 21.
-
 \it@lettering=\count336
 \it@doublequoteactive=\count337
 \it@ISOcompliance=\count338
-)) (/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/it/babel-italian.tex
+)) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/generic/babel/locale/it/babel-italian.tex
 Package babel Info: Importing font and identification data for italian
 (babel)             from babel-it.ini. Reported on input line 11.
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2022-10-26 L3 backend support: PDF output (pdfTeX)
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count339
 \l__pdf_internal_box=\box76
 ) (studenti.aux)
 \openout1 = `studenti.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -633,7 +622,7 @@ LaTeX Font Info:    ... okay on input line 7.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
+(/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count340
 \scratchdimen=\dimen295
@@ -646,7 +635,7 @@ LaTeX Font Info:    ... okay on input line 7.
 \MPnumerator=\count344
 \makeMPintoPDFobject=\count345
 \everyMPtoPDFconversion=\toks48
-) (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
  (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/grfext/grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
@@ -655,63 +644,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 Package grfext Info: Graphics extension search list:
 (grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/00miktex/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 7.
+Package hyperref Info: Link coloring OFF on input line 9.
  (studenti.out) (studenti.out)
 \@outlinefile=\write5
 \openout5 = `studenti.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 7.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 9.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 7.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 9.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 7.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 7.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 7.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 7.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/b/n on input line 9.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 7.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 7.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 7.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 9.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 7.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 7.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 7.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 9.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 7.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 7.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 9.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 7.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 9.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 7.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 7.
+(Font)                  OT1/cmss/b/n --> OT1/cmr/b/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 7.
+(Font)                  OT1/cmss/b/n --> OT1/cmss/b/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 7.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/b/n on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 7.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/b/it on input line 9.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 7.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 7.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/b/n on input line 9.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 9.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 7.
+(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 9.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 7.
+(Font)                  OT1/cmss/b/it --> OT1/mathkerncmss/m/sl on input line 9.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 7.
+(Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on input line 9.
  (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/translator/translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/translator/translator-bibliography-dictionary-English.dict
@@ -725,8 +714,8 @@ Dictionary: translator-numbers-dictionary, Language: English
 ) (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/translator/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \it@ocap on input line 7.
-LaTeX Info: Redefining \it@ccap on input line 7.
+LaTeX Info: Redefining \it@ocap on input line 9.
+LaTeX Info: Redefining \it@ccap on input line 9.
 
 
 File italian.ldf warning: 
@@ -734,35 +723,46 @@ italian.ldf    With OT1 encoding guillemets are poorly faked
 italian.ldf    Use T1 encoding
 italian.ldf    or specify a font with command \CaporaliFrom
 italian.ldf    See the documentation concerning the babel-italian typesetting 
-italian.ldf    on input line 7.
+italian.ldf    on input line 9.
 
 (studenti.nav) [1
 
-{/Users/aleben/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}] (studenti.toc) [2
+{/Users/aleben/Library/Application Support/MiKTeX/texmfs/data/fonts/map/pdftex/pdftex.map}]
+<./media/mbScheme.png, id=42, 655.44875pt x 271.0125pt>
+File: ./media/mbScheme.png Graphic file (type png)
+<use ./media/mbScheme.png>
+Package pdftex.def Info: ./media/mbScheme.png  used on input line 20.
+(pdftex.def)             Requested size: 312.9803pt x 129.41046pt.
 
-] [3
+Overfull \hbox (5.69043pt too wide) in paragraph at lines 20--20
+ [] 
+ []
+
+[2
+
+ <./media/mbScheme.png>] [3
 
 ] [4
 
 ] [5
 
-] [6
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 68.
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 68.
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 68.
+ (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/sansmathaccent/ot1mathkerncmss.fd
+File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
+) [6
 
 ] [7
 
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
- (/Library/Application Support/MiKTeX/texmfs/install/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for OT1+mathkerncmss on input line 47.
- (/Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/sansmathaccent/ot1mathkerncmss.fd
-File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mathkerncmss.
-) [8
+] [8
 
 ] [9
 
@@ -783,17 +783,17 @@ Package rerunfilecheck Info: File `studenti.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22700 strings out of 477220
- 450561 string characters out of 2824597
- 756884 words of memory out of 3000000
- 43441 multiletter control sequences out of 15000+600000
- 476009 words of font info for 52 fonts, out of 8000000 for 9000
- 0 hyphenation exceptions out of 8191
- 128i,14n,122p,488b,556s stack positions out of 10000i,1000n,20000p,200000b,80000s
-</Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmss10.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmss12.pfb></Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on studenti.pdf (10 pages, 87568 bytes).
+ 22829 strings out of 476411
+ 456265 string characters out of 5780194
+ 1860851 words of memory out of 5000000
+ 42695 multiletter control sequences out of 15000+600000
+ 519687 words of font info for 58 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 128i,14n,122p,459b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmss10.pfb></Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmss12.pfb></Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmssi10.pfb></Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on studenti.pdf (10 pages, 244268 bytes).
 PDF statistics:
- 287 PDF objects out of 1000 (max. 8388607)
+ 301 PDF objects out of 1000 (max. 8388607)
  21 named destinations out of 1000 (max. 500000)
- 43 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

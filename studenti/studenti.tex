@@ -2,71 +2,116 @@
 \usepackage[utf8]{inputenc}
 \usepackage[italian]{babel}
 %Information to be included in the title page:
-\title{Micro:Bit}
+\title{Approfondimento sulla programmazione a blocchi con Micro:Bit}
+
+\graphicspath{{./media/}}
 
 \begin{document}
 
 \frame{\titlepage}
-\begin{frame}
-	\frametitle{Indice}
-	\tableofcontents
-\end{frame}
+
 \begin{frame}
 	\frametitle{Introduzione}
-	This is some text in 
-	the first frame. This is some text in the first frame. This is some text in the first frame.
+	
+	\begin{figure}[h]
+		\includegraphics[width=11cm]{mbScheme.png}
+	\end{figure}
+
 \end{frame}
 
 \begin{frame}
-	\frametitle{Pulsanti}
+	\frametitle{Editor}
+	
+	\begin{center}
+		\textbf{https://microbit.org/join}
+	\end{center}
+
 	
 \end{frame}
 
 \begin{frame}
-	\frametitle{Esercizio 1 - visualizzazione pressione pulsanti}
-	Realizzare un programma che, ogni volta che si preme un pulsante, visualizzi sullo schermo il nome del pulsante premuto e il numero di volte che è stato premuto.\\
-\end{frame}
+	\frametitle{Scratch e Make:Code}
 
-\begin{frame}
-	\frametitle{Misurazione del tempo}
+	\textit{Quali sono le similitudini e quali le differenze tra Scratch e Make:Code?}
 
 \end{frame}
 
 \begin{frame}
-	\frametitle{Esercizio 2 - Conta secondi}
-	Realizzare un programma che conta i secondi trascorsi da quando il micro:bit è stato acceso.\\
+	\frametitle{Attività 1 - Display}
+	
+	Realizzare un programma che scriva sul display il contenuto di una variabile ti tipo stringa.
+
+	\vspace{2em}
+	\begin{enumerate}
+		\item Inizializzare la variabile con un valore
+		\item Visualizzare il valore
+	\end{enumerate}
+
+	\vspace{2em}
+	\textit{C'è differenza tra come viene visualizzata una stringa composta da un solo carattere e una stringa composta da più caratteri?}
+
 \end{frame}
 
 \begin{frame}
-	\frametitle{Esercizio 3 - Cronometro}
-	Realizzare un cronometro che funzioni come segue:
+	\frametitle{Attività 2 - Contatore}
+
+	Realizzare un programma che incrementa o decrementa una variabile di tipo numerico alla pressione di un pulsante e ne visualizza il valore sul display.
+
+	\vspace{2em}
 	\begin{itemize}
-		\item Premendo il pulsante A il cronometro parte o si ferma
-		\item Premendo il pulsante B il cronometro mostra il tempo trascorso sul display
+		\item Il tasto A deve decrementare la variabile di 1
+		\item Il tasto B deve incrementare la variabile di 1
+		\item (EXTRA) Il valore della variabile deve sempre rimanere compreso tra 0 e 9
+	\end{itemize}
+	
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Attività 3 - Cronometro}
+
+	Realizzare un cronometro che misuri il tempo trascorso tra la prima e la seconda pressione del pulsante A.
+
+	\vspace{2em}
+	\begin{itemize}
+		\item La prima pressione del pulsante A deve avviare il cronometro
+		\item La seconda pressione del pulsante A deve fermare il cronometro e mostrare il tempo trascorso sul display in secondi
 	\end{itemize}
 \end{frame}
 
 \begin{frame}
-	\frametitle{Esercizio 4 - Tempi di reazione 1}
-	Realizzare un programma che misuri il tempo di reazione di un giocatore.\\
-	Il programma deve:
+	\frametitle{Attività 4 - Reaction Game 1}
+	Realizzare un programma che misuri il tempo di reazione di un giocatore.
+	\vspace{2em}
 	\begin{enumerate}
+		\item Mostrare un simbolo di attesa
 		\item Attende un tempo casuale tra 1 e 10 secondi
-		\item Mostrare un simbolo sul display
+		\item Mostrare un simbolo di conferma sul display
 		\item Misurare quanto tempo passa tra la comparsa del simbolo e la pressione del pulsante A da parte dell'utente
-		\item Mostrare il tempo di reazione sul display
+		\item Mostrare il tempo di reazione sul display in millisecondi
+		\item (EXTRA) Impedire che il giocatore possa barare premendo il pulsante A prima che il simbolo di conferma sia apparso
 	\end{enumerate}	
 \end{frame}
+
 \begin{frame}
-	\frametitle{Esercizio 5 - Tempi di reazione 2}
+	\frametitle{Attività 5 - Reaction Game 2}
 	Estendere il programma della slide precedente introducendo un secondo giocatore.\\
-	Il programma deve:
+	
+	\vspace{2em}
 	\begin{enumerate}
+		\item Mostrare un simbolo di attesa
 		\item Attende un tempo casuale tra 1 e 10 secondi
 		\item Mostrare un simbolo sul display
 		\item Attende che almeno uno dei due giocatori prema il proprio pulsante
 		\item Misurare quanto tempo passa tra la comparsa del simbolo e la pressione di uno dei due pulsanti
-		\item Mostrare il giocatore che ha vinto e il tempo di reazione sul display
+		\item Mostrare il giocatore che ha vinto sul display
 	\end{enumerate}	
+\end{frame}
+
+\begin{frame}
+	\frametitle{References}
+	\begin{itemize}
+		\item \href{https://microbit.org/get-started/user-guide/overview/}{Micro:Bit Scheme}
+	\end{itemize}
 \end{frame}
 \end{document}
