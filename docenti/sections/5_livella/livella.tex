@@ -1,0 +1,63 @@
+\documentclass[../../docenti.tex]{subfiles}
+
+\begin{document}
+\section{Livella}
+La livella (comunemente nota come \textit{bolla}) è uno strumento utilizzato per verificare la planarità di una superficie.\\
+Micro:Bit è dotato di giroscopio, sensore che consente di rilevare l'orientamento del dispositivo nello spazio.
+
+L'obiettivo di questa sezione sarà quello di sviluppare una livella digitale utilizzando il giroscopio di Micro:Bit e il display.
+
+\subsection{Rollio e Beccheggio}
+L'inclinazione lungo i due assi del giroscopio è chiamata \textit{rollio} (\textit{roll}) e \textit{beccheggio} (\textit{pitch}).
+
+Si parla di rollio quando il dispositivo ruota lungo l'asse verticale del dispositivo (inclinato verso destra o sinistra).\\
+Si parla di beccheggio quando il dispositivo ruota lungo l'asse orizzontale del dispositivo (inclinato in avanti o indietro).
+
+Micro:Bit rappresenta rollio e beccheggio come valori numerici compresi tra -180 e 180 gradi, dove il valore 0 rappresenta lo stato "piano" rispetto all'asse.
+
+Il comando per accedere ai dati del giroscopio si trova in \textit{Ingressi -- altro} e si chiama \textit{rotazione}.
+
+\subsection{Griglia LED}
+Fino ad ora la griglia LED è sempre stata utilizzata per disegnare immagini o scritte.\\
+La successiva attività richiederà il controllo dei singoli LED per rappresentare l'inclinazione del dispositivo.
+
+Si può accendere un singolo LED della griglia utilizzando il comando \textit{disegna} presente nel pannello \textit{LED} e specificando le coordinate del LED da accendere.\\
+Notare che la griglia è composta da 5x5 LED e che le coordinate vanno da 0 a 4, dove (0, 0) si trova in alto a sinistra.
+\newpage
+\subsection{Attività 6 - Livella}
+L'obiettivo di questa attività è quello di sviluppare una livella digitale che mostri all'utente l'inclinazione del dispositivo lungo i due assi sfruttando la griglia di LED.
+
+L'implementazione deve funzionare come segue:
+\begin{itemize}
+	\item Il dispositivo deve misurare l'inclinazione lungo i due assi e salvarla in apposite variabili;
+	\item Tramite la formula scritta di seguito il programma deve determinare le coordinate del LED da accendere per rappresentare l'inclinazione lungo i due assi;
+	\item Il programma deve pulire lo schermo e accedere il LED calcolato al punto precedente;
+	\item (EXTRA) Tramite la pressione dei pulsanti A o B l'utente deve poter scegliere di focalizzarsi solo su uno dei due assi.
+	\begin{itemize}
+		\item Il pulsante A deve visualizzare solo le variazioni in beccheggio;
+		\item Il pulsante B deve visualizzare solo le variazioni in rollio;
+	\end{itemize}
+\end{itemize}
+
+\paragraph{Calcolo delle coordinate}
+La coordinata del LED da accendere può essere calcolata partendo dall'angolo \(\alpha\) per casi come segue:
+\begin{center}
+	\begin{math}
+		\begin{cases}
+			0\quad\text{se } \alpha > 20\\
+			1\quad\text{se } \alpha > 10\\
+			2\quad\text{se } -10 \leq \alpha \geq 10\\
+			3\quad\text{se } \alpha < -10\\
+			4\quad\text{se } \alpha < -20
+		\end{cases}
+	\end{math}
+\end{center}
+
+\subparagraph{Suggerimenti}
+É consigliato implementare la conversione da angolo a coordinata in una funzione a parte per rendere il programma più leggibile ed evitare ripetizioni di codice.
+
+\paragraph{Soluzione}
+La soluzione può essere trovata nei file\\
+\textit{microbit-5.livella.hex} e \textit{microbit-5.livella-extra.hex}.
+
+\end{document}
