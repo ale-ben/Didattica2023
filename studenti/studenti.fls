@@ -596,6 +596,38 @@ INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/tex/latex/
 INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm
 INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
 INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+INPUT ./media/level.jpg
+INPUT media/level.jpg
+INPUT ./media/level.jpg
+INPUT ./media/level.jpg
+INPUT ./media/level.jpg
+INPUT ./media/level.jpg
+INPUT ./media/mbAxes.png
+INPUT media/mbAxes.png
+INPUT ./media/mbAxes.png
+INPUT ./media/mbAxes.png
+INPUT ./media/mbAxes.png
+INPUT ./media/mbAxes.png
+INPUT ./media/mbLedGrid.png
+INPUT media/mbLedGrid.png
+INPUT ./media/mbLedGrid.png
+INPUT ./media/mbLedGrid.png
+INPUT ./media/mbLedGrid.png
+INPUT ./media/mbLedGrid.png
+INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmss10.tfm
+INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmss8.tfm
+INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/cm/cmss8.tfm
+INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/sansmathaccent/mathkerncmssi10.tfm
+INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
+INPUT /Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/tfm/public/sansmathaccent/mathkerncmssi8.tfm
 OUTPUT studenti.nav
 OUTPUT studenti.toc
 OUTPUT studenti.snm

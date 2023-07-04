@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.6.3)  3 JUL 2023 10:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2023.6.3)  4 JUL 2023 22:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -766,7 +766,38 @@ File: ot1mathkerncmss.fd 2020/01/31 Fontinst v1.933 font definitions for OT1/mat
 
 ] [9
 
-] [10
+]
+<./media/level.jpg, id=249, 4287.01625pt x 3011.25pt>
+File: ./media/level.jpg Graphic file (type jpg)
+<use ./media/level.jpg>
+Package pdftex.def Info: ./media/level.jpg  used on input line 124.
+(pdftex.def)             Requested size: 142.26378pt x 99.89076pt.
+ [10
+
+ <./media/level.jpg>]
+<./media/mbAxes.png, id=275, 436.63126pt x 438.63875pt>
+File: ./media/mbAxes.png Graphic file (type png)
+<use ./media/mbAxes.png>
+Package pdftex.def Info: ./media/mbAxes.png  used on input line 136.
+(pdftex.def)             Requested size: 142.26378pt x 142.91733pt.
+ [11
+
+ <./media/mbAxes.png>]
+<./media/mbLedGrid.png, id=302, 369.38pt x 304.13625pt>
+File: ./media/mbLedGrid.png Graphic file (type png)
+<use ./media/mbLedGrid.png>
+Package pdftex.def Info: ./media/mbLedGrid.png  used on input line 148.
+(pdftex.def)             Requested size: 142.26378pt x 117.1369pt.
+ [12
+
+ <./media/mbLedGrid.png>] [13
+
+]
+Overfull \hbox (36.23636pt too wide) in paragraph at lines 179--179
+\OT1/cmss/m/it/10.95 https://support.microbit.org/support/solutions/articles/19000127759- 
+ []
+
+[14
 
 ]
 \tf@nav=\write6
@@ -783,17 +814,17 @@ Package rerunfilecheck Info: File `studenti.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 22829 strings out of 476411
- 456265 string characters out of 5780194
+ 22920 strings out of 476411
+ 458143 string characters out of 5780194
  1861851 words of memory out of 5000000
- 42695 multiletter control sequences out of 15000+600000
- 519687 words of font info for 58 fonts, out of 8000000 for 9000
+ 42772 multiletter control sequences out of 15000+600000
+ 523481 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,14n,122p,459b,557s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmss10.pfb></Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmss12.pfb></Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmssi10.pfb></Users/aleben/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on studenti.pdf (10 pages, 245075 bytes).
+Output written on studenti.pdf (14 pages, 632332 bytes).
 PDF statistics:
- 301 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 48 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 415 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

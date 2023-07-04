@@ -112,9 +112,69 @@
 \end{frame}
 
 \begin{frame}
+	\frametitle{Attività 6 - Livella - Introduzione}
+
+	\begin{figure}[h]
+		\includegraphics[width=5cm]{level.jpg}
+	\end{figure}
+	
+	La livella è uno strumento che permette di verificare se un piano è orizzontale o meno.\\
+	L'oviettivo di questa attività è quello di realizzare una livella digitale con Micro:Bit.
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Attività 6 - Livella - Giroscopio}
+
+
+	\begin{figure}[h]
+		\includegraphics[width=5cm]{mbAxes.png}
+	\end{figure}
+
+	Micro:Bit è dotato di un giroscopio che permette di rilevare la rotazione su due assi, noti come \textit{pitch} (\textit{beccheggio}) e \textit{roll} (\textit{rollio}).\\
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Attività 6 - Livella - LED}
+
+	\begin{figure}[h]
+		\includegraphics[width=5cm]{mbLedGrid.png}
+	\end{figure}
+
+	I led che compongono il display sono disposti in una griglia 5x5 in 0,0 è l'angolo in alto a sinistra.\\
+	Fino ad ora abbiamo utilizzato il display come un unico blocco, ma è possibile accendere e spegnere ogni singolo led.
+
+\end{frame}
+
+\begin{frame}
+	\frametitle{Attività 6 - Livella}
+
+	\begin{enumerate}
+		\item Salvare i valori di rollio e beccheggio su due variabili;
+		\item Mappare i valori di rollio e beccheggio sui led della griglia come segue:
+		\begin{itemize}
+			\item Valori compresi tra -10 e +10 devono essere mappati sul led centrale (Riga o Colonna 2);
+			\item Valori compresi tra -20 e -10 devono essere mappati su Riga o Colonna 3;
+			\item Valori minori di -20 devono essere mappati su Riga o Colonna 4;
+			\item Valori compresi tra +10 e +20 devono essere mappati su Riga o Colonna 1;
+			\item Valori maggiori di 20 devono essere mappati su Riga o Colonna 0;
+		\end{itemize}
+		\item Pulire lo schermo e accendere il LED corrispondente.
+		\item (EXTRA) Premendo i tasti A o B consentire di visualizzare le variazioni solo su un asse.
+	\end{enumerate}
+
+	
+
+\end{frame}
+
+\begin{frame}
 	\frametitle{References}
 	\begin{itemize}
-		\item \href{https://microbit.org/get-started/user-guide/overview/}{Micro:Bit Scheme}
+		\item \href{https://microbit.org/get-started/user-guide/overview/}{Schema Micro:Bit \textit{https://microbit.org/get-started/user-guide/overview}}
+		\item \href{https://unsplash.com/photos/zfVIh4cX_4c}{Immagine Livella \textit{https://unsplash.com/photos/zfVIh4cX\_4c}} 
+		\item \href{https://microbit.org/projects/make-it-code-it/spirit-level/}{Assi rotazione Micro:Bit \textit{https://microbit.org/projects/make-it-code-it/spirit-level/}}
+		\item \href{https://support.microbit.org/support/solutions/articles/19000127759-micro-bit-led-x-y-orientation}{Schema LED Micro:Bit \textit{https://support.microbit.org/support/solutions/articles/19000127759-micro-bit-led-x-y-orientation}}
 	\end{itemize}
 \end{frame}
 \end{document}
