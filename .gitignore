@@ -13,3 +13,4 @@
 *.gz
 *.toc
 .DS_Store
+/papers
