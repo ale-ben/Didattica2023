@@ -5,14 +5,103 @@
 Di seguito vi sono alcuni progetti che possono essere svolti dagli studenti per consolidare le conoscenze acquisite durante le lezioni di programmazione a blocchi.
 
 \subsection{Progetto 1 - Bussola}
-
+Realizzare una bussola digitale che mostri la direzione in cui si trova il nord magnetico sotto forma di freccia sul display.
 
 \subsection{Progetto 2 - Allarme di movimento}
+Realizzare un allarme di movimento che scatti quando il Micro:Bit viene spostato.\\
+Lo spostamento deve poter essere rilevato come segue:
+\begin{itemize}
+	\item \textbf{Spostamento 1}: rotazione in uno (o più) assi rilevata dal giroscopio;
+	\item \textbf{Spostamento 2}: accelerazione in uno (o più) assi rilevata dall'accelerometro.
+\end{itemize}
+Quando l'allarme scatta, il display deve mostrare un simbolo di allarme lampeggiante.\\
+L'allarme deve essere attivabile e disattivabile tramite il pulsante A.
 
 \subsection{Progetto 3 - Bilancia la biglia}
 
+Realizzare un gioco in cui bisogna portare una biglia in un punto preciso senza farla uscire dallo schermo.\\
+Rappresentare la biglia con un led acceso con intensità massima e l'obiettivo con un led acceso con intensità bassa. Le posizioni di biglia e obiettivo devono essere generate randomicamente.\\
+Utilizzare giroscopio o accellerometro per muovere la biglia come segue:
+\begin{enumerate}
+	\item Definire un intervallo di tempo \(t\);
+	\item Ogni \(t\) muovere la biglia di un led nella direzione indicata dai dati del sensore scelto (solo se il valore è maggiore di una soglia);
+\end{enumerate}
+Quando la biglia raggiunge l'obiettivo, il display deve mostrare un simbolo di conferma.\\
+Se la biglia esce dallo schermo, il display deve mostrare un simbolo di errore.	
+\newpage
 \subsection{Progetto 4 - Mini snake}
+\customcallout{1em}{40em}{Questo è un progetto impegnativo e che richiederà significativamente più tempo rispetto agli altri.\\ Si consiglia di assicurarsi che gli studenti siano consapevoli della cosa prima di scegliere questo progetto.}
+Realizzare un remake minimale del classico gioco Snake.\\
+La testa del serpente deve essere rappresentata da un led acceso con intensità massima, il corpo da un led acceso con intensità media, l'obiettivo da un led acceso con intensità bassa.\\
+Il cambio di direzione avviene tramite input da giroscopio o accelerometro.\\
+Quando il serpente mangia l'obiettivo, il corpo si allunga di un led.\\
+Se il serpente si morde, il display deve mostrare un simbolo di errore.\\
+Il gioco prosegue finchè il serpente non si morde.
 
+\subsubsection{Suggerimenti}
+Per gestire il corpo del serpente, suggerire agli studenti di rappresentarlo come lista di coordinate. Per effettuare un movimento basterà aggiungere la nuova testa come primo elemento della lista ed eliminare l'ultimo elemento.
+
+In alternativa fornire il file \textit{microbit-6-mini-snake-starter.hex} come punto di partenza, questo file ha la funzione muovi già implementata.
+
+\newpage
 \subsection{Valutazione}
+Questa unità didattica può essere valutata unendo le osservazioni informali raccolte durante le attività alla rubric di valutazione riportata in tabella \ref{RubricProgetti}.\\
+Nella valutazione dei progetti è fondamentale considerare la complessità del progetto scelto.
 
+\subsubsection{Osservazioni informali}
+Di seguito alcuni spunti per le osservazioni informali, dato che durante le discussioni gli studenti sono divisi in gruppi, è consigliabile annotare le osservazioni per gruppo:
+\begin{itemize}
+	\item Partecipazione:
+	\begin{itemize}
+		\item Il gruppo ha dimostrato interesse agli spunti di discussione proposti?
+		\item Il gruppo è intervenuto durante le discussioni?
+	\end{itemize}
+	\item Le osservazioni proposte sono corrette?
+	\begin{itemize}
+		\item Se lo sono, sono giustificate?
+		\item Se non lo sono, il gruppo ha dimostrato di aver capito dove è errato il suo ragionamento?
+	\end{itemize}
+	\item Il gruppo ha dimostrato di aver capito le osservazioni proposte dagli altri gruppi?
+	\item Il gruppo è disposto a mettere in discussione le proprie osservazioni?
+\end{itemize}
+
+\subsubsection{Rubric valutazione progetti}
+A propria discrezione è possibile condividere questa tabella con gli studenti al fine di rendere il processo di valutazione il più trasparente possibile.
+\begin{longtable}[c]{| m{7em} | m{8em} | m{8em} | m{8em} | m{8em} |}
+	\caption{Rubric valutazione progetti.\label{RubricProgetti}}\\
+   
+	\hline
+	\multicolumn{5}{| c |}{Rubric valutazione progetti}\\
+	\hline
+	 & Non raggiunto & Parzialmente raggiunto & Raggiunto & Pienamente raggiunto\\
+	\hline
+	\endfirsthead
+   
+	\hline
+	\multicolumn{5}{|c|}{Continua rubric valutazione progetti \ref{RubricProgetti}}\\
+	\hline
+	& Non raggiunto & Parzialmente raggiunto & Raggiunto & Pienamente raggiunto\\
+	\hline
+	\endhead
+   
+	\hline
+	\endfoot
+   
+	\hline
+	\multicolumn{5}{| c |}{Fine rubric valutazione progetti}\\
+	\hline\hline
+	\endlastfoot
+	
+	Rispetto della traccia & Il progetto presentato non rispetta le richieste & Il progetto presentato rispetta alcune richieste & Il progetto presentato rispetta tutte le richieste & Il progetto presentato rispetta tutte le richieste e presenta degli elementi aggiuntivi proposti dallo studente\\
+	\hline
+	Funzionamento & Il progetto non funziona & Il progetto funziona ma presenta dei comportamenti inaspettati & Il progetto funziona come da richieste &\\
+	\hline
+	Corretto uso delle variabili & Non sono stati rispettati i tipi delle variabili (comando stampa stringa per una variabile che si sa essere numerica, ...) & & Tutti gli usi di variabile rispettano i tipi corretti (oppure è stato giustificato il cambio di tipo) &\\
+	\hline
+	Quantità di variabili utilizzate & Sono presenti molte variabili che potevano essere evitate & Sono presenti alcune variabili che potevano essere evitate & Tutte le variabili usate sono necessarie per il funzionamento del codice o per la sua leggibilità &\\
+	\hline
+	Utilizzo di funzioni & Non sono state utilizzate funzioni, è presente del codice duplicato & Sono state utilizzate funzioni ma non in modo corretto & Sono state utilizzate funzioni in modo corretto (oppure non era necessario l'uso di funzioni) & \\
+	\hline
+	Elementi aggiuntivi rispetto alla traccia & Non sono state fatte aggiunte  & & Sono state fatte delle aggiunte di poco impatto & Sono state fatte delle aggiunte significative (Nuove funzionalità, logging dei dati, ...)\\
+\end{longtable}
 \end{document}
