@@ -2,21 +2,20 @@
 
 \begin{document}
 \section{Reaction Game}
-L'obiettivo del progetto finale è quello di realizzare un gioco in cui si valutano i riflessi dei giocatori.
+L'obiettivo è quello di realizzare un gioco in cui si valutano i riflessi dei giocatori.
 
 Il gioco prevederà che due giocatori impugnino il MicroBit rispettivamente sul tasto A e B.
 Il microcontrollore fornirà un sengale visivo e che indicherà ai giocatori di premere il tasto, il primo giocatore a premerlo vince.
 
 Il gioco è semplice, ma per implementarlo è necessaria una buona comprensione di come funzionino variabili e cicli.
 
-Per favorire la comprensione del progetto, si consiglia di sviluppare il lavoro in maniera progressiva, facendo realizzare prima una versione a giocatore singolo e poi una a due giocatori (come illustrato nelle sezioni 1.1 e 1.2).
-
+\customcallout{1em}{40em}{Per favorire la comprensione del progetto, si consiglia di sviluppare il lavoro in maniera progressiva, facendo realizzare prima una versione a giocatore singolo e poi una a due giocatori (come illustrato in \autoref{sec:reaction_game_1} e \autoref{sec:reaction_game_2}).}
 \subsection{Prima implementazione}
-
+\label{sec:reaction_game_1}
 L'obiettivo è realizzare un misuratore di tempi di reazione che misuri il tempo che passa tra l'emissione di un segnale dal microcontrollore e la pressione del tasto A da parte del giocatore.
 
 \subsubsection{[Attività] Identificazione delle 3 fasi principali del programma}
-Si consiglia di impostare questa attività come discussione con tutta la classe, in modo da favorire la comprensione del progetto e la partecipazione di tutti gli studenti.\\
+\customcallout{1em}{40em}{Si consiglia di impostare questa attività come discussione con tutta la classe, in modo da favorire la comprensione del progetto e la partecipazione di tutti gli studenti.}
 Chiedere agli studenti di identificare le tre fasi principali del programma e descrivere cosa deve fare ognuna di queste.\\
 Le tre fasi sono:
 \begin{enumerate}
@@ -57,7 +56,8 @@ In questa prima implementazione, il giocatore gioca da solo e non è prevista un
 La soluzione può essere trovata nei file\\
  \textit{microbit-3-reaction\_game-1p.hex} e \textit{microbit-3-reaction\_game-1p-extra.hex}
 
-\subsection{Attività 5 - Reaction Game 2}
+\subsection{Seconda Implementazione}
+\label{sec:reaction_game_2}
 
 Questa implementazione sarà una modifica della prima, in cui verrà aggiunto un secondo giocatore.\\
 L'obiettivo è realizzare un gioco in cui due giocatori si sfidano per vedere chi ha i riflessi migliori.
@@ -77,7 +77,7 @@ Le differenze si trovano in fase di misurazione e visualizzazione.
 \end{enumerate}
 
 \subsubsection{Attività 5 - Reaction Game 2}
-La seconda fase deve estendere la prima, aggiungendo la possibilità di giocare in due utilizzando tasto A e tasto B.\\
+La seconda fase estende la prima, aggiungendo la possibilità di giocare in due utilizzando tasto A e tasto B.\\
 La visuazzazione del tempo impiegato verrà sostituita con la visualizzazione del giocatore che ha premuto per primo il tasto.
 
 L'implementazione deve funzionare come segue:
